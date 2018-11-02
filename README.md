@@ -30,7 +30,9 @@ in Debian Distros:
 ## Note
 After you logged in you can change your shell to bash by simply entering command ```bash```.
 
-I didn't want to make it obvious to system admins by putting /bin/bash as your default shell
+I didn't want to make it obvious to system admins by putting /bin/bash as your default shell.
+
+Also you can't just remove the user by executing ```userdel $USERNAME```. If you wanna remove the hidden user, Do it by deleting lines that starts with ```$USERNAME:``` in ```/etc/shadow``` and ```/etc/passwd```
 
 ## Feedback
 
