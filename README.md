@@ -1,5 +1,5 @@
-# EvilShadow
-Evil Shadow - Create Hidden Users in Unix-Like OS
+# HideMe
+HideMe - Create Hidden Users in Unix-Like OS
 
 ## How does it work?
 It creates a user with root group privileges using only shadow and passwd files. So when you login, You will notice that you are currently logged in with username root (Even though you aren't).
@@ -37,7 +37,7 @@ Also you can't just remove the user by executing ```userdel $USERNAME```. If you
 ## Feedback
 
 Suggestions/Improvements are
-[welcome](https://github.com/SajedMohseni/EvilShadow/issues)!
+[welcome](https://github.com/SajedMohseni/HideMe/issues)!
 
 ## Author
 
